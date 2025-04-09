@@ -1,0 +1,48 @@
+
+html{
+    background-color: #D3D3D3;
+}
+
+h1{
+    color:darkblue;
+}
+
+.text{
+    color: green;
+}
+
+a{
+    opacity: color red;
+}
+
+.img{
+    width: 500px;
+}
+
+table, td, th{
+    width: 400;
+    border: 1px solid rgba(243, 122, 41, 0.89);
+}
+
+td, th{
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.but{
+    --opacity: 1;
+    background-color: green;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 6px;
+    transition: opacity 0.3s;
+    opacity: var(--opacity);
+
+    &:hover{
+        --opacity: 0.7;
+    }
+
+    &:active{
+        ---opacity: 0.9;
+    }
+}
