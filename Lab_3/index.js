@@ -1,7 +1,7 @@
 
- var var1 = "var";
- let let1 = "let";
- const conat1 = "const";
+//  var var1 = "var";
+//  let let1 = "let";
+//  const conat1 = "const";
 
 // if (var1 == "var" && var1 == "var" || let1 == " let"){
 //     var var2 = "var2"; let let2 = "let2";
