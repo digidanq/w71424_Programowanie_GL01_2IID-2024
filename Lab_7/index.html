@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src = "index.js" defer></script>
+</head>
+<body>
+    <p>Witaj <span id="nameSpan"></span></p>
+    <form>
+        <label for="name">Imie: </label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="surename">Nazwisko: </label><br>
+        <input type="text" id="surename" name="surename"><br><br>
+
+        <label for="email">Adres e-mail: </label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password">Hasło: </label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="checkbox" id="ShowHidePassword" name="ShowHidePassword">
+        <lable for="ShowHidePassword">Pokaż/ukryj hasło</lable><br><br>
+
+        <label>Płec: </label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Mężczyzna</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Kobieta</label><br><br/>
+
+        <div id="phone-container">
+            <label for="phone">Telefon: </label><br>
+            <input type="phone" id="phone" name="phone"><br>
+        </div>
+        <input type="checkbox" id="showHidePhone" name="showHidePhone">
+        <lable for="showHidePhone">Pokaż/ukryj telefon</lable><br><br>
+
+
+        <label for="country">Kraj: </label><br>
+        <select id="country" name="country">
+            <option value="pl">Polska</option>
+            <option value="de">Niemcy</option>
+            <option value="us">USA</option>
+        </select><br><br>
+
+        <lable>Hobby</lable><br><br>
+
+        <input value="football" type="checkbox" id="football">
+        <lable>Piłka nożna</lable><br>
+
+        <input value="walleyball" type="checkbox" id="walleyball">
+        <lable>Siatkówka</lable><br>
+
+        <input value="basketball" type="checkbox" id="basketball">
+        <lable>Koszekówka</lable><br><br>
+
+        
+        <input type="submit" value="Wyślij">
+        <!-- <button type="submit">Wyślij <b>text</b></button> -->
+
+
+        
+    </form>
+
+</body>
+</html>
